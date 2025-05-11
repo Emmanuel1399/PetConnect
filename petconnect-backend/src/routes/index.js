@@ -5,6 +5,6 @@ const appointmenRoutes = require('./appointmen.routes')
 const router = express.Router();
 
 router.use('/pets', petRoutes)
-router.use('appointments', appointmenRoutes)
+router.use('/appointments', appointmenRoutes)
 
 module.exports = router;
